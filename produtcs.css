@@ -2,17 +2,13 @@ body {
     background-color: whitesmoke;
 }
 
-.items h3{
-    margin: 0;
-}
-
 .items p{
     margin: 0;
 }
 
 .items {
     display: grid;
-    grid-template-rows: 25rem;
+    grid-template-rows: 25rem 25rem 25rem;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
     margin: 60px auto;
@@ -28,7 +24,7 @@ body {
 
 
 .items h3{
-    margin-top: 5%;
+    margin: 5% 0 0;
 }
 
 .items span img{
@@ -37,14 +33,21 @@ body {
 }
 
 .items input {
-    margin-top: 5%;
     background-color: transparent;
     color: navy;
     border: 2px solid green;
     border-radius: 3px;
     height: 10%;
     width: 45%;
+    margin-top: 5%;
     margin-bottom: 15%;
+}
+
+.items input:hover {
+    background-image: linear-gradient(white, green);
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 4px red;
 }
 
 .out {
