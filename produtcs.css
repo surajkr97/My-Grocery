@@ -1,0 +1,61 @@
+body {
+    background-color: whitesmoke;
+}
+
+.items h3{
+    margin: 0;
+}
+
+.items p{
+    margin: 0;
+}
+
+.items {
+    display: grid;
+    grid-template-rows: 25rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    margin: 60px auto;
+    width: 75%;
+}
+
+.items img {
+    height: 40%;
+    width: 50%;
+    margin-top: 8%;
+    object-fit: contain;
+}
+
+
+.items h3{
+    margin-top: 5%;
+}
+
+.items span img{
+    height: 20px;
+    margin-top: 0;
+}
+
+.items input {
+    margin-top: 5%;
+    background-color: transparent;
+    color: navy;
+    border: 2px solid green;
+    border-radius: 3px;
+    height: 10%;
+    width: 45%;
+    margin-bottom: 15%;
+}
+
+.out {
+    text-align: center;
+    outline: 15px solid white;
+    border: 1px solid grey;
+    border-radius: 1px;
+    background-color: white;
+}
+
+.out:hover {
+    border: none;
+    outline: 3px solid navy;
+}

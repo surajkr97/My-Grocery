@@ -1,0 +1,218 @@
+/* *, html {margin:0; padding:0;} */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    padding-top: 12px;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: white;
+    position: sticky; 
+    top: 0;
+    z-index: 1;
+    /* box-shadow: 0 4px 4px 0 rgba(0,0,0,.2); */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo i{
+    font-size: 1.7rem;
+    color: green;
+}
+
+.logo span{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: navy;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    color: grey;
+    /* #6d6d75; */
+}
+
+.navbar li{
+    margin: 0vw .8vw 0vw .8vw;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.navbar :hover{
+    color: green;
+    font-weight: bolder;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+.eachbox{
+    margin: 0vw 0.2vw 0vw 0.2vw;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: navy;
+}
+
+.photo{
+    height: 35rem;
+    /* 530px; */
+    background-image: url(img/bodybg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgtxt{
+    position: relative; top:15rem;
+}
+
+.imgtxt2{
+    display: flex;   
+    justify-content: center;
+}
+
+@keyframes vip{
+    to{transform: translate(60px,0px);}
+}
+
+#move{
+    animation: vip 1s infinite alternate
+}
+
+.imgtxt h1{
+    color: navy;
+}
+
+.imgtxt span{
+    color: green;
+}
+
+/* .imgtxt h3{
+    color: #505054;
+} */
+
+.imgtxt3{
+    margin-left: 45vw;
+    /* 41rem; */
+    margin-top: .6rem;
+    padding: 10px 30px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1.5px solid green;
+    font-weight: bold;
+    color: navy;
+}
+
+.foot{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot h2{
+    margin: 35px 0px 0px 0px;
+    padding: 0px;
+    color: navy;
+}
+
+.footbasket span{
+    font-size: 1.8rem;
+    color: #057e03;
+    margin: 35px 0px 0px 5px;
+}
+
+.logo2{
+    display: flex;
+}
+
+.footitems{
+    margin-top: 13px;
+}
+
+.iconcolor i{
+    color: #fc7300;
+}
+
+.search{
+    height: 30px;
+    width: 250px;
+    margin-bottom: 13px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+
+::placeholder{
+    padding-left: 9px;
+}
+
+.subscribe{
+    height: 38px;
+    width: 108px;
+    font-size: large;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1.5px solid green;
+    color: navy;
+}
+
+.visa{
+    height: 20px; margin-bottom: 4px;
+}
+
+.american{
+    height: 29px;
+}
+
+.master{
+    height: 32px;
+}
+
+.discover{
+    height: 32px; margin-left: 9px;
+}
+
+hr{
+    width: 80%;
+}
+
+h4{
+    display: flex; justify-content: center;
+}
+
+.iconcolor p:hover{
+    transform: translate(20px, 0px);
+}
+
+.iconcolor a {
+    color: grey;
+}
+
+.wholefoot{
+    background-color: white;
+}
