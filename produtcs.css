@@ -62,3 +62,27 @@ body {
     border: none;
     outline: 3px solid navy;
 }
+
+.ourproducts{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.hexagon{
+    clip-path: polygon(0 0, 100% 0, 88% 50%, 100% 100%, 0 100%, 12% 50%);
+    height: 50px;
+    width: 170px;
+    background-color: green;
+}
+
+.hexagon h2{
+    display: flex;
+    justify-content: center;
+    margin: 6% 0 0 0;
+    color: white;
+}
+
+.ourtxt {
+    margin: .7% 0 0 0;
+}
