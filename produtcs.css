@@ -2,7 +2,7 @@ body {
     background-color: whitesmoke;
 }
 
-.items p{
+.items p {
     margin: 0;
 }
 
@@ -15,6 +15,17 @@ body {
     width: 75%;
 }
 
+@media screen and (max-width: 790px) {
+    #queryitems {
+        display: grid;
+        grid-template-rows: 25rem 25rem 25rem 25rem 25rem;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        margin: 60px auto;
+        width: 75%;
+    }
+}
+
 .items img {
     height: 40%;
     width: 50%;
@@ -23,11 +34,11 @@ body {
 }
 
 
-.items h3{
+.items h3 {
     margin: 5% 0 0;
 }
 
-.items span img{
+.items span img {
     height: 20px;
     margin-top: 0;
 }
@@ -63,20 +74,20 @@ body {
     outline: 3px solid navy;
 }
 
-.ourproducts{
+.ourproducts {
     display: flex;
     justify-content: center;
     margin-top: 2%;
 }
 
-.hexagon{
+.hexagon {
     clip-path: polygon(0 0, 100% 0, 88% 50%, 100% 100%, 0 100%, 12% 50%);
     height: 50px;
     width: 170px;
     background-color: green;
 }
 
-.hexagon h2{
+.hexagon h2 {
     display: flex;
     justify-content: center;
     margin: 6% 0 0 0;
