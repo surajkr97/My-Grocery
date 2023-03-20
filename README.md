@@ -8,7 +8,7 @@ Installation
 
 ```
 git clone https://github.com/surajkr97/My-Grocery.git
-```
+``` 
 
 2. Open the project folder in your code editor.
 3. Open the index.html file in your browser to view the website.
