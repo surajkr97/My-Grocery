@@ -13,6 +13,9 @@ git clone https://github.com/surajkr97/My-Grocery.git
 2. Open the project folder in your code editor.
 3. Open the index.html file in your browser to view the website.
 
+## Quick Link
+
+www.shop.surajgupta.com - It only has two pages for now: a home page and a product page; more pages will be added soon.
 
 ### Credits
 
