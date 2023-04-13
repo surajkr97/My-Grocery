@@ -57,7 +57,7 @@ body {
 .items input:hover {
     background-image: linear-gradient(white, green);
     color: white;
-    font-weight: bold;
+    font-weight: bold; 
     text-shadow: 5px 5px 4px red;
 }
 
