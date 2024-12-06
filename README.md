@@ -15,7 +15,7 @@ git clone https://github.com/surajkr97/My-Grocery.git
 
 ## Quick Link
 
-[www.mygrocery.com](https://shop.surajgupta.tech) - It only has two pages for now: a home page and a product page; more pages will be added soon.
+[www.mygrocery.com]( https://surajkr97.github.io/My-Grocery/) - It only has two pages for now: a home page and a product page; more pages will be added soon.
 
 ### Credits
 
